@@ -3,5 +3,5 @@
 function calculateAverage(num1, num2) {
     return (num1 + num2) / 2;
 }
-calculateAverage(3, 5)
-console.log()
+let resoult = calculateAverage(3, 5)
+console.log(resoult)
