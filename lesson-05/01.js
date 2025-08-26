@@ -25,4 +25,4 @@ const game = {
   }
 }
 game.addResource("stone", 50)
-game.addResource("gold", 50)
+game.addResource("lumber", 50)
