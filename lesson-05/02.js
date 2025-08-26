@@ -39,8 +39,13 @@ function updateGallery(name, info) {
   if (gallery.hasOwnProperty(name)) {
     gallery[name] = info;
   } else {
-    gallery[name] = info
+    gallery[name] = info;
   }
   console.log(gallery)
 }
-const newInfo = updateGallery('Mona Lisa', 'Leonardo da Vinci 1995');
+// function updateGallery(gallery, artworkTitle, newValue) {
+//   gallery[artworkTitle] = newValue;
+//   console.log(gallery)
+// }
+
+updateGallery('Mona Lisa', 'Leonardo da Vinci');
