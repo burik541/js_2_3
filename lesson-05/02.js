@@ -43,14 +43,7 @@ const gallery = {
 //   }
 //
 // }
-// // function updateGallery(gallery, artworkTitle, newValue) {
-// //   gallery[artworkTitle] = newValue;
-// //   console.log(gallery)
-// // }
-//
-// updateGallery( gallery,'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
-// updateGallery( gallery,'The Persistence of Memory', 'Salvador Dali')
-// console.log(gallery)
+
 function updateGallery(gallery, artworkTitle, newValue) {
   gallery[artworkTitle] = newValue;
 }
