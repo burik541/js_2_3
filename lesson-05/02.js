@@ -35,19 +35,25 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery(gallery, name, info) {
-  if (gallery.hasOwnProperty(name)) {
-    gallery[name] = info;
-  } else {
-    gallery[name] = info;
-  }
-
-}
-// function updateGallery(gallery, artworkTitle, newValue) {
-//   gallery[artworkTitle] = newValue;
-//   console.log(gallery)
+// function updateGallery(gallery, name, info) {
+//   if (gallery.hasOwnProperty(name)) {
+//     gallery[name] = info;
+//   } else {
+//     gallery[name] = info;
+//   }
+//
 // }
-
-updateGallery( gallery,'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
-updateGallery( gallery,'The Persistence of Memory', 'Salvador Dali')
+// // function updateGallery(gallery, artworkTitle, newValue) {
+// //   gallery[artworkTitle] = newValue;
+// //   console.log(gallery)
+// // }
+//
+// updateGallery( gallery,'Mona Lisa', 'Leonardo da Vinci, 1503-1506')
+// updateGallery( gallery,'The Persistence of Memory', 'Salvador Dali')
+// console.log(gallery)
+function updateGallery(gallery, artworkTitle, newValue) {
+  gallery[artworkTitle] = newValue;
+}
+updateGallery(gallery, 'Mona Lisa', 'Leonardo da Vinci, 1503-1506');
+updateGallery(gallery, 'The Persistence of Memory', 'Salvador Dali');
 console.log(gallery)
