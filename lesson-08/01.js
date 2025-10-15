@@ -6,9 +6,9 @@
   Другой вариант - использовать метод split строк, и метод массива join.
 */
 
-function capitalizeWords() {
-   let str = ""
-   let result = str.replace(/\b\w/g, c=> c.toUpperCase())
-    return result
+function capitalizeWords(str) {
+  return  str.replace(/\b\w/g, c=> c.toUpperCase())
+
 }
 
+console.log(capitalizeWords('A'))
