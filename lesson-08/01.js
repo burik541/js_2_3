@@ -7,9 +7,8 @@
 */
 
 function capitalizeWords() {
-   let str = "hellow world"
+   let str = ""
    let result = str.replace(/\b\w/g, c=> c.toUpperCase())
     return result
 }
 
-console.log(capitalizeWords())
