@@ -4,8 +4,10 @@
  */
 
 function isNumeric(str) {
-    if (!isNaN(str)) return true
+    if (str=== " ") return false
+    else if (!isNaN(str)) return true
     else return false
+
 
 
   // your code
